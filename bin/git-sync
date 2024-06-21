@@ -1,3 +1,8 @@
 #!/bin/sh
 
+BRANCH="$(git rev-parse --abbrev-ref HEAD)"
+if [[ "$BRANCH" == "main" ]]; then
+  echo 'Cannot sync main branch. Please checkout to another branch first';
+  exit 1;
+fi
 git fetch origin main:main && git rebase main
