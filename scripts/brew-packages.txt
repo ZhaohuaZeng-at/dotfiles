@@ -1,0 +1,6 @@
+neovim
+fzf
+font-fira-code-nerd-font
+the-fuck
+zoxide
+eza
