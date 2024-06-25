@@ -34,5 +34,4 @@ zpm load                                        \
   @gh/Aloxaf/fzf-tab                            \
   @omz/plugins/git                              \
   @omz/plugins/command-not-found                \
-  @omz/plugins/zoxide                           \
   @omz/plugins/aliases
