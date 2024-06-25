@@ -9,5 +9,7 @@ fi
 eval $(thefuck --alias)
 eval "$(zoxide init zsh --cmd cd)"
 
-# # ZSH related config
+# ZSH related config
 source $DOTFILES/zsh/.zpmrc
+
+source $DOTFILES/zsh/aliases.zsh
