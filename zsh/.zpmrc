@@ -1,4 +1,6 @@
 
+#!/usr/bin/env zsh
+
 if [[ ! -f ~/.zpm/zpm.zsh ]]; then
   git clone --recursive https://github.com/zpm-zsh/zpm ~/.zpm
 fi
@@ -19,7 +21,7 @@ zpm load                \
   @omz/lib/key-bindings \
   @omz/lib/misc         \
   @omz/lib/spectrum     \
-  @omz/lib/theme-and-appearance
+  @omz/lib/theme-and-appearance 
 
 
 zpm load                                        \
@@ -31,4 +33,6 @@ zpm load                                        \
   @gh/hlissner/zsh-autopair                     \
   @gh/Aloxaf/fzf-tab                            \
   @omz/plugins/git                              \
-  @omz/plugins/command-not-found                
+  @omz/plugins/command-not-found                \
+  @omz/plugins/zoxide                           \
+  @omz/plugins/aliases

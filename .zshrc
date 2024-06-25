@@ -1,3 +1,5 @@
+#!/usr/bin/env zsh
+
 export DOTFILES=$HOME/.dotfiles
 
 export PATH=$PATH:$DOTFILES/bin
