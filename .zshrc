@@ -20,3 +20,6 @@ source $DOTFILES/zsh/aliases.zsh
 
 # Use fzf for default auto suggestion keybindings like ctrl-r
 source <(fzf --zsh)
+
+# Use nvim as default editor
+export EDITOR=nvim
