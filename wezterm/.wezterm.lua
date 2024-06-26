@@ -19,6 +19,8 @@ config.window_decorations = "TITLE | RESIZE"
 config.window_background_opacity = 0.9
 config.macos_window_background_blur = 8
 
+config.default_cursor_style = "SteadyBar"
+
 config.window_frame = {
     -- The font used in the tab bar.
     -- Roboto Bold is the default; this font is bundled
