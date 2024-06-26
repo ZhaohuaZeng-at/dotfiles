@@ -65,7 +65,7 @@ mauve = "#cba6f7"
   [[blocks.segments]]
     type = 'executiontime'
     style = 'plain'
-    foreground = 'p:yellow'
+    foreground = 'p:pink'
     background = 'transparent'
     template = '{{ .FormattedMs }}'
 

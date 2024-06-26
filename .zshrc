@@ -9,9 +9,14 @@ if [ "$TERM_PROGRAM" != "Apple_Terminal" ]; then
 fi
 
 eval $(thefuck --alias)
+
+# Replace cd command with zoxide
 eval "$(zoxide init zsh --cmd cd)"
 
 # ZSH related config
 source $DOTFILES/zsh/.zpmrc
 
 source $DOTFILES/zsh/aliases.zsh
+
+# Use fzf for default auto suggestion keybindings like ctrl-r
+source <(fzf --zsh)
