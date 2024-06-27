@@ -14,5 +14,6 @@ brew 'jandedobbeleer/oh-my-posh/oh-my-posh'
 brew 'thefuck'
 brew 'zoxide'
 brew 'eza'
+brew 'antidote'
 
 cask 'wezterm'
