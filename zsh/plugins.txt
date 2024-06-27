@@ -24,10 +24,10 @@ ohmyzsh/ohmyzsh path:plugins/zoxide
 
 # Other plugins
 zsh-users/zsh-autosuggestions   
-zsh-users/zsh-syntax-highlighting
+zsh-users/zsh-syntax-highlighting kind:defer
 MichaelAquilina/zsh-auto-notify
 hlissner/zsh-autopair
-Aloxaf/fzf-tab
+Aloxaf/fzf-tab 
 desyncr/auto-ls 
 
 # Local Plugins
