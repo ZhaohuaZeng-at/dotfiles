@@ -8,14 +8,21 @@ config.font = wezterm.font_with_fallback {
     "Monolisa",
     "FiraCode Nerd Font",
 }
-config.font_size = 18
+config.font_size = 16
 
 config.enable_scroll_bar = false
 config.enable_tab_bar = true
 config.use_fancy_tab_bar = true
 config.hide_tab_bar_if_only_one_tab = true
 
-config.window_decorations = "TITLE | RESIZE"
+config.window_decorations = "INTEGRATED_BUTTONS|RESIZE"
+config.window_padding = {
+    left = "0.5cell",
+    right = "0.5cell",
+    top = '1cell',
+    bottom = 0,
+  }
+
 config.window_background_opacity = 0.9
 config.macos_window_background_blur = 8
 
